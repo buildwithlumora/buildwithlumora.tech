@@ -23,7 +23,7 @@ const Footer = () => {
 
         <div className="footer-right">
           <a 
-            href="https://www.linkedin.com/in/srikar-janjirala/" 
+            href="https://www.linkedin.com/company/buildwithlumora/" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="footer-social-link"
