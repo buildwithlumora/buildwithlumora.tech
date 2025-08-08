@@ -4,14 +4,15 @@ import './Contact.css';
 const ContactUs = () => {
   const handlePrimaryContact = () => {
     const email = "buildwithlumora@gmail.com";
-    const subject = "Project Inquiry - Web Development";
+    const subject = "Let's Build Something Together";
     const body = `Hi Lumora Team,
 
-I'm interested in working with you on a web development project.
-Please get back to me with more details.
+I’m looking to get a project developed and would love to work with your team. Please let me know how we can get started.
 
-Thanks,
-[Your Name]`;
+Best,
+[Your Name]
+
+`;
 
     const gmailLink = `https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=${encodeURIComponent(email)}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
