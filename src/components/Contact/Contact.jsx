@@ -3,7 +3,7 @@ import './Contact.css';
 
 const ContactUs = () => {
   const handlePrimaryContact = () => {
-    const email = "buildiwthlumora@gmail.com";
+    const email = "buildwthlumora@gmail.com";
     const subject = "Project Inquiry - Web Development";
     const body = `Hi Lumora Team,
 
