@@ -18,7 +18,7 @@ Thanks,
     window.open(
   gmailLink,
   "gmailWindow",
-  "width=500,height=500,left=950,top=120"
+  "width=500,height=500,left=950,top=200"
 );
   };
 
