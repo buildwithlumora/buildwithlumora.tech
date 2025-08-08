@@ -1,43 +1,12 @@
-# Lumora – Web Development Agency
+# React + Vite
 
-Welcome to **Lumora**, a web development agency dedicated to building fast, functional, and seamless websites for modern businesses.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## About Lumora
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-At **Lumora**, we believe every brand deserves a digital presence that reflects its unique identity. Our mission is to deliver user-focused websites that provide smooth, intuitive, and engaging experiences.
+## Expanding the ESLint configuration
 
-Our expertise includes:
-
-- Custom website development
-- Responsive and mobile-first design
-- Performance optimization
-- SEO and accessibility best practices
-- E-commerce and landing pages
-- Secure, scalable web solutions
-
-Whether you are a startup or an established business, **Lumora** is your trusted digital partner.
-
----
-
-## Why Choose Lumora?
-
-- Seamless user experiences
-- Pixel-perfect UI/UX
-- Transparent communication
-- Timely delivery
-- Ongoing support
-
----
-
-## Get in Touch
-
-Have a project in mind? Let’s build something great together.
-
-Email: buildwithlumora@gmail.com  
-Website: [buildwithlumora.tech](https://www.lumora.dev)
-
----
-
-Thank you for visiting our repository!
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

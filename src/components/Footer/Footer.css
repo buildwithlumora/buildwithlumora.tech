@@ -1,0 +1,116 @@
+.footer-section {
+  background-color: #090909;
+  padding: 2rem 7rem;
+  color: #fff;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left .logo-flex {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.footer-left .lumora-svg {
+  width: 25px;
+  height: 25px;
+  min-width: 25px;
+  min-height: 25px;
+  display: block;
+}
+
+.footer-left .lumora {
+  font-size: 1.5rem;
+  color: #ffffffd4;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  font-family: 'MuseoModerno', sans-serif;
+}
+
+.footer-social-link {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: #999;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 2rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.footer-social-link:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.footer-social-link svg {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.arrow-icon {
+  transition: transform 0.3s ease;
+}
+
+.footer-social-link:hover .arrow-icon {
+  transform: translateX(4px);
+}
+
+@media (max-width: 968px) {
+  .footer-section {
+    padding: 2rem 3rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .footer-section {
+    padding: 1.5rem 1.5rem;
+  }
+  
+  .footer-content {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .footer-social-link {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+  }
+  
+  .footer-social-link svg {
+    width: 1.1rem;
+    height: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-section {
+    padding: 1.5rem 1rem;
+  }
+  
+  .footer-left .lumora {
+    font-size: 1.25rem;
+  }
+  
+  .footer-left .lumora-svg {
+    width: 22px;
+    height: 22px;
+    min-width: 22px;
+    min-height: 22px;
+  }
+}
