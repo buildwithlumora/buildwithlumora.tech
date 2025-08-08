@@ -203,13 +203,13 @@
 
 .hero-btn {
   display: inline-block;
-  padding: 0.85rem 2.2rem;
-  font-size: 1.15rem;
+  padding: 1rem 2.5rem;
+  font-size: 1.35rem;
   font-weight: 400;
   color: #fff;
   background: rgba(30, 30, 30, 0.5);
   border: 1.5px solid rgba(255, 255, 255, 0.25);
-  border-radius: 1.5rem;
+  border-radius: 4rem;
   text-decoration: none;
   margin-top: 0.5rem;
   box-shadow: 0 2px 18px 0 rgba(0, 0, 0, 0.18);

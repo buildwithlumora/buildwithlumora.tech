@@ -69,7 +69,7 @@ function Process() {
               >
                 Contact Us
               </button>
-              <button className="action-btn secondary">See Projects</button>
+              {/* <button className="action-btn secondary">See Projects</button> */}
             </div>
           </div>
 

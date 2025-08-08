@@ -9,12 +9,13 @@ html {
 #process,
 #about,
 #contact {
-  scroll-margin-top: 80px; /* Adjust this value based on your navbar height */
+  scroll-margin-top: 80px; 
 }
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: inter, Arial, sans-serif;
 }
 
 .app-container {
@@ -50,4 +51,22 @@ html {
   background-color: #000;
   color: white;
   padding: 50px 20px;
+}
+
+
+/* ...existing code... */
+
+.background-layer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  background: #090909;
+}
+
+.content-layer {
+  position: relative;
+  z-index: 1;
 }

@@ -3,8 +3,23 @@ import './Contact.css';
 
 const ContactUs = () => {
   const handlePrimaryContact = () => {
-    // Add your contact logic here
-    console.log('Primary contact button clicked');
+    const email = "buildiwthlumora@gmail.com";
+    const subject = "Project Inquiry - Web Development";
+    const body = `Hi Lumora Team,
+
+I'm interested in working with you on a web development project.
+Please get back to me with more details.
+
+Thanks,
+[Your Name]`;
+
+    const gmailLink = `https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=${encodeURIComponent(email)}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+    window.open(
+      gmailLink,
+      "gmailWindow",
+      "width=600,height=600,left=200,top=200"
+    );
   };
 
   const handleScheduleCall = () => {
@@ -23,12 +38,10 @@ const ContactUs = () => {
           Let's discuss how we can help you achieve your goals and create something extraordinary together.
         </p>
 
-        
         <div className="contact-button-wrapper">
           <button className="contact-button" onClick={handlePrimaryContact}>
             Start a Conversation
           </button>
-    
         </div>
       </div>
     </section>

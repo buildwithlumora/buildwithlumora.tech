@@ -116,17 +116,21 @@ function Services() {
               >
                 Contact Us
               </button>
-              <button className="action-btn secondary">See Projects</button>
+              {/* <button className="action-btn secondary">See Projects</button> */}
             </div>
           </div>
             </div>
         <div className="services-image-container">
-          <img
-            src="https://i.postimg.cc/d0PkxqFJ/person-developing-website-glyph-illustration-web-developer-203633-4851.avif"
-            alt="Services"
-            className="rounded-image"
-          />
-        </div>
+  <video
+    src="https://files.catbox.moe/y7rxy4.mp4"
+    autoPlay
+    loop
+    muted
+    playsInline
+    className="rounded-image"
+  />
+</div>
+
       </div>
 
       <div className="services-grid">
