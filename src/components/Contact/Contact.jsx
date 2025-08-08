@@ -16,10 +16,10 @@ Thanks,
     const gmailLink = `https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=${encodeURIComponent(email)}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
     window.open(
-      gmailLink,
-      "gmailWindow",
-      "width=600,height=600,left=200,top=200"
-    );
+  gmailLink,
+  "gmailWindow",
+  "width=500,height=500,left=950,top=120"
+);
   };
 
   const handleScheduleCall = () => {
